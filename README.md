@@ -1,24 +1,40 @@
-This repository contains my Internship Minor Project completed during my internship at **Corizo Edutech Pvt. Ltd.**. 
-The project focuses on exploratory data analysis and visualisation of anthropometric (body measurement) data 
-from the **National Health and Nutrition Examination Survey (NHANES) 2020** dataset.
+📊 NHANES Health Data Analysis (EDA Project)
 
-The primary objective of this project is to analyse and compare body measurements of adult male and female 
-participants using Python-based data analysis techniques. The dataset includes variables such as body weight, 
-height, arm length, leg length, waist circumference, and hip circumference. These measurements are analysed 
-to understand distribution patterns, variability, correlations, and gender-based differences.
+This project focuses on exploratory data analysis of NHANES 2020 anthropometric data using Python to uncover patterns in human body measurements.
 
-The project involves multiple stages, including data acquisition, preprocessing, feature engineering, 
-statistical analysis, and visualisation. Key health indicators such as **Body Mass Index (BMI)**, 
-**Waist-to-Height Ratio (WHtR)**, and **Waist-to-Hip Ratio (WHR)** are computed to assess body composition 
-and fat distribution. Standardisation using z-scores is applied to enable fair comparison across variables 
-with different units and scales.
+📌 Objective
 
-Visual analysis techniques such as histograms, box-and-whisker plots, scatterplot matrices, and correlation 
-analysis are used to identify trends, outliers, and relationships between body measurements. The project also 
-includes an outlier analysis to study individuals with extreme BMI values and interpret their standardised 
-body measurements.
+To analyze and compare body measurements of adult males and females and identify health trends, correlations, and variations using data-driven techniques.
 
-This repository contains the complete Jupyter Notebook with explanations, code, and visual outputs, along 
-with a PDF report generated from the notebook and the original NHANES datasets used for the analysis. The 
-project demonstrates practical application of Python libraries such as **Pandas, NumPy, Matplotlib, and 
-Seaborn** for real-world data analysis and reporting.
+📊 Dataset
+NHANES 2020 dataset
+Features include: weight, height, waist, hip, arm, and leg measurements
+Used to study body composition and health indicators
+
+⚙️ Workflow
+Data collection & preprocessing
+Handling missing values
+Feature engineering (BMI, WHR, WHtR)
+Standardization (z-score)
+Exploratory Data Analysis (EDA)
+Visualization & correlation analysis
+Outlier detection
+
+📈 Key Insights
+BMI alone does not fully represent body health
+WHR and WHtR provide deeper insight into fat distribution
+Significant variation observed across gender groups
+
+🛠️ Tech Stack
+Python
+Pandas, NumPy
+Matplotlib, Seaborn
+Jupyter Notebook
+
+📁 Project Includes
+Jupyter Notebook (code + explanations)
+Visualizations and analysis
+Dataset used for the study
+
+👨‍💻 About
+Developed as part of a Data Science training program, focusing on applying analytical techniques to real-world health data.
