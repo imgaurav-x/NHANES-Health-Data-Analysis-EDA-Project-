@@ -14,43 +14,30 @@ weight, height, waist, hip, arm, and leg measurements
 Used to study body composition and health indicators
 
 ⚙️ Workflow
+
 Data collection & preprocessing
-
 Handling missing values
-
 Feature engineering (BMI, WHR, WHtR)
-
 Standardization (z-score)
-
 Exploratory Data Analysis (EDA)
-
 Visualization & correlation analysis
-
 Outlier detection
 
 
 📈 Key Insights
 
 BMI alone does not fully represent body health
-
 WHR and WHtR provide deeper insight into fat distribution
-
 Significant variation observed across gender groups
 
 🛠️ Tech Stack
-
 Python
-
 Pandas, NumPy, Matplotlib, Seaborn
-
 Jupyter Notebook
 
 📁 Project Includes
-
 Jupyter Notebook (code + explanations)
-
 Visualizations and analysis
-
 Dataset used for the study
 
 👨‍💻 About
